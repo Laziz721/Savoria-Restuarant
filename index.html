@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savoria Restuarant</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://github.com/RealNath/Font-Awesome-Pro-Free">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Savoria</h1>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
+                <ul class="nav-links" id="nav-links">
+                    <!-- <ul> -->
+                        <a href="#section"><li>Home</li></a>
+                        <a href="#top-bar"><li>About</li></a>
+                        <a href="#menu"><li>Menu</li></a>
+                        <a href="#make"><li>Reservations</li></a>
+                        <a href="#card-contact"><li>Contact</li></a>
+                    <!-- </ul> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="section">
+        <div class="container">
+            <div class="text1">
+                <h1>Welcome to Savoria</h1>
+                <p>Experience culinary excellence in every bite</p>
+                <a href="#make"><button>Book a Table</button></a>
+            </div>
+        </div>
+    </section>
+
+    <div id="top-bar" class="top-bar">
+        <div class="container">
+            <div class="text2">
+                <h1>Our Story</h1>
+                <p>A culinary journey that began with passion and tradition</p>
+            </div>
+            <div class="text-flex">
+                <div class="img"><img src="./img/chef poor.jpg" alt=""></div>
+                <div class="text">
+                    <p>Founded in 2010, Savoria has been delighting guests with authentic <br> flavors and innovative cuisine. Our team of passionate chefs combines <br> traditional techniques with modern creativity to craft unforgettable <br> dining experiences.</p>
+                    <p>We source only the finest ingredients, working closely with local farmers <br> and suppliers to ensure every dish meets our exacting standards. Our <br> commitment to quality and sustainability is reflected in every plate we <br> serve.</p>
+                    <p>Whether you're celebrating a special occasion or simply enjoying an <br> evening out, we promise to make your visit memorable with exceptional <br> food, warm hospitality, and an elegant atmosphere.</p>
+                </div>
+            </div>
+            <div class="icon-flex">
+                <div class="card">
+                    <i class="fa-solid fa-cookie"></i>
+                    <h4>Expert Chefs</h4>
+                    <p>Our award-winning chefs bring years of culinary expertise</p>
+                </div>
+                <div class="card">
+                    <i class="fa-regular fa-heart"></i>
+                    <h4>Fresh Ingredients</h4>
+                    <p>Locally sourced, organic ingredients in every dish</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-award"></i>
+                    <h4>Award Winning</h4>
+                    <p>Recognized for excellence in fine dining</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu" class="menu">
+        <div class="container">
+            <div class="text3">
+                <h1>Our Menu</h1>
+                <p>Carefully crafted dishes using the finest ingredients</p>
+            </div>
+            <div class="box-flex">
+                <div class="box">
+                    <div class="bg"><img src="./img/pasta img.jpg" alt=""></div>
+                    <h3>Gourmet Pasta <span>$24</span></h3>
+                    <p>Main Course</p>
+                    <h5>Handmade pasta with fresh tomato sauce, basil, and parmesan</h5>
+                </div>
+                <div class="box">
+                    <div class="bg"><img src="./img/grilled salomon img.jpg" alt=""></div>
+                    <h3>Grilled Salmon <span>$32</span></h3>
+                    <p>Main Course</p>
+                    <h5>Atlantic salmon with roasted vegetables and lemon butter sauce</h5>
+                </div>
+            </div>
+            <div class="box-flex">
+                <div class="box">
+                    <div class="bg"><img src="./img/fresh garden img.jpg" alt=""></div>
+                    <h3>Fresh Garden Salad <span>$16</span></h3>
+                    <p>Appetizer</p>
+                    <h5>Mixed greens with seasonal vegetables, nuts, and house vinaigrette</h5>
+                </div>
+                <div class="box">
+                    <div class="bg"><img src="./img/chocolate delight img.jpg" alt=""></div>
+                    <h3>Chocolate Delight <span>$14</span></h3>
+                    <p>Dessert</p>
+                    <h5>Rich chocolate cake with berry compote and vanilla ice cream</h5>
+                </div>
+            </div>
+            <h4>View our full menu with wine pairings</h4>
+            <button>Download Full Menu</button>
+
+            <div class="text4">
+                <h1>Gallery</h1>
+                <p>A glimpse into the artistry of our culinary creations</p>
+            </div>
+            <div class="gallery-flex">
+                <div class="box-gallery">
+                    <img src="./img/gallery img1.jpg" alt="" />
+                </div>
+                <div class="box-gallery">
+                    <img src="./img/gallery img2.jpg" alt="">
+                </div>
+                <div class="box-gallery">
+                    <img src="./img/gallery img3.jpg" alt="">
+                </div>
+                <div class="box-gallery">
+                    <img src="./img/gallery img4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="make" class="make">
+        <div class="container">
+            <div class="text5">
+                <h1>Make a Reservation</h1>
+                <p>Book your table and we'll prepare something special for you</p>
+            </div>
+            <div class="make-input">
+                <form>
+                    <div class="row">
+                        <div class="field">
+                            <label>Full Name *</label>
+                            <input type="text" placeholder="Shavkatov Laziz" />
+                        </div>
+
+                        <div class="field">
+                            <label>Email *</label>
+                            <input type="email" placeholder="lazizshavkatov712@gmail.com" />
+                        </div>
+                    </div>
+
+                <div class="field">
+                    <label>Phone Number *</label>
+                    <input type="tel" placeholder="+998 90 712 00 00" />
+                </div>
+
+                <div class="row-three">
+                    <div class="field">
+                        <label>Date *</label>
+                        <input type="text" placeholder="DD.MM.YYYY" />
+                    </div>
+
+                    <div class="field">
+                        <label>Time *</label>
+                        <input type="text" placeholder="--:--" />
+                    </div>
+
+                    <div class="field">
+                        <label>Guests *</label>
+                        <input type="text" placeholder="2 Guests" />
+                    </div>
+                </div>
+
+                <a href="https://t.me/lazizshavkatov712"><button type="submit" class="make-input">Request reservation</button></a>
+                <p class="note">We'll confirm your reservation within 24 hours</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="card-contact" class="card-contact">
+        <div class="container">
+            <div class="text6">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you. Visit us or get in touch</p>
+            </div>
+
+            <div class="card-flex">
+                <div class="card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Location</h4>
+                    <p>123 Culinary Street <br/> Downtown District <br/> New York, NY 10001</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h4>Phone</h4>
+                    <p>+998 90 712 00 00 <br/> +998 91 715 00 00 <br/>+998 90 721 00 00</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>lazizshavkatov712@gmail.com <br/> lazizshavkatov715@gmail.com <br/> lazizshavkatov721@gmail.com</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>Phone</h4>
+                    <p>Mon-Thu: 5:00 PM - 10:00 PM <br/> Fri-Sat: 5:00 PM - 11:00 PM <br/> Sunday: 4:00 PM - 9:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-location">
+        <div class="container">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Map Location</h4>
+            <p>123 Culinary Street, Downtown District</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div id="footer" class="footer">
+                <div class="footer-container">
+                    <div class="footer-about">
+                        <h2>Savoria</h2>
+                        <p>Experience culinary excellence with every visit. Where passion meets flavor.</p>
+                    </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#section">Home</a></li>
+                        <li><a href="#top-bar">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#make">Reservations</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://t.me/lazizshavkatov712" target="_blank"><i class="fab fa-telegram"></i></i></a>
+                        <a href="https://www.instagram.com/shavkatov.o07/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="footer-bottom">
+                    © 2026 Savoria Restaurant. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+    
+</body>
+</html>
